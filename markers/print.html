@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="ja">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>椛川ダム ARマーカー印刷用</title>
+<style>
+  body { font: 16px/1.6 system-ui, sans-serif; margin: 20px auto; width: min(180mm, calc(100% - 32px)); }
+  img { display: block; width: 150mm; max-width: 100%; margin: 24px auto; }
+  @media print { @page { size: A4; margin: 15mm; } body {margin:0; width:auto} button { display:none } img { break-inside: avoid } }
+</style>
+<h1>椛川ダム ARマーカー</h1>
+<p>画像全体をA4用紙にカラー印刷し、平らな台に置きます。安全な場所で立ち止まり、カメラに画像の四隅を入れてください。</p>
+<img src="./kabagawa.png" alt="DAM MISSION KABAGAWA AR画像マーカー">
+<button onclick="window.print()">印刷する</button>
+</html>
